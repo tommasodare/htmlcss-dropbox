@@ -36,6 +36,10 @@
         background-color: cadetblue;
     }
 
+    .team {
+        background-color: darkgreen;
+    }
+
 }
 
 /* #region-col */
@@ -268,5 +272,54 @@ nav {
 
     img {
         width: 100%;
+    }
+}
+
+.team {
+    width: 60%;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    min-height: 100px;
+}
+
+footer {
+    background-color: #000000;
+    min-height: 400px;
+    color: #ffffff;
+
+    .footer_list {
+        display: flex;
+        justify-content: space-between;
+
+        ul {
+            padding-top: 4rem;
+    
+        }
+
+        li:first-child {
+            font-size: 25px;
+            padding-bottom: 1rem;
+        }
+    
+
+    }
+
+
+    .footer_box {
+        width: 70%;
+        margin: auto; 
+    }
+
+    li {
+        list-style: none;
+        padding-bottom: 0.5rem;
+        font-size:medium;
+    }
+
+    hr {
+        width: 150px;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
     }
 }
