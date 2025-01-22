@@ -26,6 +26,16 @@
     .enterprise {
         background-color: beige;
     }
+
+    .partner {
+        background-color: brown;
+
+    }
+
+    .operation {
+        background-color: cadetblue;
+    }
+
 }
 
 /* #region-col */
@@ -216,4 +226,47 @@ nav {
 
 .enterprise, #intestaction {
     border: 1px solid grey;
+}
+
+.partner {
+    width: 60%;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    min-height: 300px;
+    display: flex;
+}
+
+#partner_image {
+    img {
+        width:100%;
+    }
+}
+
+#partner_box {
+    padding-left:2rem;
+    padding-top: 3rem;
+}
+
+.operation {
+    width: 60%;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    min-height: 800px;
+
+    #titol {
+        font-size: 30px;
+        padding-bottom: 3rem;
+    }
+}
+
+.operation_box {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+        width: 100%;
+    }
 }
