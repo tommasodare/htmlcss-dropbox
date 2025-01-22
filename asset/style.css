@@ -17,6 +17,15 @@
         background-color: orange;
         min-height: 50px;
     }
+
+    .central_container {
+        background-color: aquamarine;
+        min-height: 400px;
+    }
+
+    .enterprise {
+        background-color: beige;
+    }
 }
 
 /* #region-col */
@@ -127,6 +136,7 @@ nav {
 .container {
     min-height: 600px;
     background-color: var(--dp-background);
+    margin-bottom: 10rem;
 }
 
 #jumbotron {
@@ -142,7 +152,7 @@ nav {
         padding-bottom: 3rem;
     }
 
-    #jumbotron_up {
+    #jumbotron_down {
         display: flex;
     }
 
@@ -162,4 +172,48 @@ nav {
         
 }
 
+}
+
+.central_container {
+    width: 60%;
+    margin: auto;
+    
+    h1 {
+        font-size: 50px;
+    }
+
+    .selection {
+        text-align: center;
+        border: 1px solid grey;
+    }
+
+    .column {
+        border: 1px solid grey;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.plan {
+    display: flex;
+}
+
+#intestaction {
+    text-align: center;
+}
+
+.enterprise {
+    width: 60%;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+#enterprise_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.enterprise, #intestaction {
+    border: 1px solid grey;
 }
