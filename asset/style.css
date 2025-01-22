@@ -23,7 +23,7 @@
 
 [class^="col"]
 {
-    padding: 0%0.5rem;
+    padding: 0 0.5rem;
 }
 
 .col {
@@ -122,4 +122,44 @@ nav {
         text-decoration: none;
         color: #000000;
     }
+}
+
+.container {
+    min-height: 600px;
+    background-color: var(--dp-background);
+}
+
+#jumbotron {
+    width: 70%;
+    margin: auto;
+    padding-top: 3rem;
+
+    h1 {
+        font-size: 100px;
+    }
+
+    #titol {
+        padding-bottom: 3rem;
+    }
+
+    #jumbotron_up {
+        display: flex;
+    }
+
+    #right_card {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    #left_card {
+
+        margin-bottom: -4rem;
+
+        img {
+            width: 100%;
+        }
+        
+}
+
 }
