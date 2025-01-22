@@ -14,7 +14,7 @@
 .debug {
      
     header {
-        background-color: orange;
+        background-color: rgb(255, 255, 255);
         min-height: 50px;
     }
 
@@ -112,11 +112,19 @@ nav {
 }
 
 #logo {
-    padding-right: 2rem;
+    padding-right: 1rem;
+
+    img {
+        width: 80%;
+    }
 }
 
-#right_nav {
-    
+#right_card {
+     
+    p {
+        font-size: 17px;
+        line-height: 22px;
+    }
 }
 
 #right_nav, #left_nav {
@@ -144,6 +152,14 @@ nav {
     a {
         text-decoration: none;
         color: #000000;
+    }
+
+    .start {
+        background-color: var(--dp-button);
+        text-align: center;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     }
 }
 
@@ -174,6 +190,28 @@ nav {
         display: flex;
         flex-direction: column;
         gap: 3rem;
+
+        .anchor {
+            color:black;
+            font-size:40px;
+            padding-top: 7rem;
+        }
+
+        .start {
+            width: 60%;
+            margin: left;
+            background-color: var(--dp-button);
+            text-align: center;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 0.5rem 0 0.5rem 0;
+        }
+
+        .cancel {
+            text-decoration: none;
+            color: #000000;
+        }
+
     }
 
     #left_card {
