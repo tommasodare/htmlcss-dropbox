@@ -24,7 +24,7 @@
     }
 
     .enterprise {
-        background-color: beige;
+        background-color: none;
     }
 
     .partner {
@@ -304,10 +304,9 @@ nav {
 
 #intestaction {
     text-align: center;
+    padding: 1rem 0 1rem 0;
 
-    #team {
-        padding: 1rem 0 1rem 0;
-    }
+    border-bottom: 1px solid grey;
     
 }
 
@@ -316,15 +315,45 @@ nav {
     margin: auto;
     margin-top: 10rem;
     margin-bottom: 10rem;
+    border: 1px solid grey;
+
 }
 
 #enterprise_box {
     display: flex;
     justify-content: space-between;
-}
+    padding: 2rem 1rem 1rem 1rem;
 
-.enterprise, #intestaction {
-    border: 1px solid grey;
+    #right_enterprise {
+
+        h2 {
+            padding-bottom: 1rem;
+        }
+
+        h3 {
+            font-size: 15px;
+        }
+
+        p {
+            padding-top: 4rem;
+            padding-right: 4rem;
+        }
+
+    }
+
+    #left_enterprise {
+
+        text-align: right;
+        padding-top: 1rem;
+
+        a {
+            background-color: var(--dp-button);
+            padding: 0.5rem 1rem 0.5rem 1rem;
+            text-decoration: none;
+            color: #ffffff;
+            text-align: center;
+        }
+    }
 }
 
 .partner {
