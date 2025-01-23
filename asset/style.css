@@ -7,7 +7,7 @@
 :root {
     --dp-primary_dark: #000000;
     --dp-primary-light: #ffffff ;
-    --dp-button: #0061fe;
+    --dp-button: rgb(0, 97, 254);
     --dp-background: #b4d0e6;
 }
 
@@ -19,7 +19,7 @@
     }
 
     .central_container {
-        background-color: aquamarine;
+        background-color: none;
         min-height: 400px;
     }
 
@@ -229,29 +229,86 @@ nav {
 .central_container {
     width: 60%;
     margin: auto;
+
+    #plan_titol {
+        padding-bottom: 2rem;
+    }
     
-    h1 {
-        font-size: 50px;
+    h2 {
+        font-size: 40px;
+    }
+
+    #plan_radio {
+        padding-bottom: 2rem;
+
+        span {
+            padding-right: 2rem;
+        }
+    }
+
+    .col_4 {
+        height: 800px;
+        border: 0.5px solid grey;
     }
 
     .selection {
         text-align: center;
-        border: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 1rem 0 1rem 0;
     }
 
     .column {
-        border: 1px solid grey;
         display: flex;
         flex-direction: column;
+
+        h3 {
+            font-size: 22px;
+        }
+
+        .plan_type, .information, .plan_button {
+            width: 90%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+
+        .plan_button {
+            
+            a.gratis {
+                background-color: var(--dp-button);
+                padding: 0.5rem 1rem 0.5rem 1rem;
+                text-decoration: none;
+                color: #ffffff;
+                text-align: center;
+            }
+
+            a.now {
+                text-decoration: underline;
+                color: var(--dp-button);
+            }
+        }
+
+        hr {
+            margin: 1rem 11rem 1rem 1rem;
+        }
     }
 }
 
 .plan {
     display: flex;
+    justify-content: space-evenly;
 }
 
 #intestaction {
     text-align: center;
+
+    #team {
+        padding: 1rem 0 1rem 0;
+    }
+    
 }
 
 .enterprise {
