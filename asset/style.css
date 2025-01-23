@@ -37,7 +37,7 @@
     }
 
     .team {
-        background-color: darkgreen;
+        background-color: none;
     }
 
 }
@@ -422,20 +422,32 @@ nav {
     }
 
     p {
-        font-size: 22px;
+        font-size: 18px;
+        padding-right: 3rem;
     }
 
     .col_4 {
         padding-bottom: 2rem;
+        padding-right: 2rem;
     }
 }
 
-.team {
+#final {
     width: 60%;
     margin: auto;
     margin-top: 10rem;
     margin-bottom: 10rem;
     min-height: 100px;
+    padding-right: 25rem;
+
+    h2 {
+        font-size: 45px;
+        padding-bottom: 4rem;
+    }
+
+    a {
+        color: var(--dp-button)
+    }
 }
 
 footer {
